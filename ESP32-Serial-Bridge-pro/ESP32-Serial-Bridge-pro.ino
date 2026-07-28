@@ -1,5 +1,5 @@
 //#define TASK_HANDLER
-#define BT_HANDLER_NEU
+//#define BT_HANDLER_NEU
 #define OTA_HANDLER
 #include <esp_wifi.h>
 #include <WiFi.h>
