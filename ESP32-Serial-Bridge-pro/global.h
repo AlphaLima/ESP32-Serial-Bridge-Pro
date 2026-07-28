@@ -1,7 +1,7 @@
 #ifndef GLOBAL_H
 #define GLOBAL_H
 
-#define VERSION "1.06"
+#define VERSION "1.07"
 /* Version history
  *  V0.01   22.11.2017  First ESP32 port
  */
