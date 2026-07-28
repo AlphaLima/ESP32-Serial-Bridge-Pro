@@ -50,4 +50,4 @@ I recommend to start your project with a Node32s or compatible evaluation board.
 
 https://tech.scargill.net/wp-content/uploads/2017/05/ESP326.jpg
 
-<img width="585" height="921" alt="image" src="https://github.com/user-attachments/assets/ca04ba61-63d6-4e49-be6d-8bf6b278978a" />
+
