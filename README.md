@@ -4,6 +4,7 @@ It allows the entire configuration, NMEA Filter and cross serial data exchange. 
 
 Transparent WiFi (TCP) to all three UART Bridge, supports both AP and STATION WiFi modes. The .ino file is the code for the ESP32. Use Arduino IDE for ESP32 to compile and upload it to the ESP32. I made this project in order to connect Flight equipment devices devices like (Radio, Vario FLARM), to a Flight Computer (Kobo, Smartphones etc.), but it is not limited to that. You can use it wherever you want, but on your own risk. Read license file for more details. Accesspoint
 IP Address: 192.168.4.1
+
 AP SSID: LK8000
 AP Password: Flightcomputer
 Used Ports:
