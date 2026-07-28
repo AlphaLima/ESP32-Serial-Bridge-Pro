@@ -1,7 +1,9 @@
 This is the advanced version of the ESP32-Serial-Bridge, now with a configuration website.
 It allows the entire configuration, NMEA Filter and cross serial data exchange. All configurable in the website.
 
+
 Default user: LK8000
+
 Default password: Flightcomputer
 
 
