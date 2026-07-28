@@ -17,7 +17,7 @@
   #include "esp_bt.h"
   #include "BluetoothSerial.h"
   #if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
-  #error Bluetooth is not enabled! Please run `make menuconfig` to and enable it
+  #error Bluetooth is not enabled! Please run `make menuconfig` to and aenable it
   #endif
   BluetoothSerial SerialBT;
 #endif // BT_HANDLER
@@ -58,7 +58,7 @@ char szTmp[TMP_BUF_SIZE];
 uint8_t buf1[NUM_HW_COM][bufferSize];
 uint16_t i1[NUM_HW_COM] ;
 
-uint8_t buf2[NUM_HW_COM][bufferSize];
+uint8_t buf2[NUM_HW_COM][bufferSize + 2];
 uint16_t i2[NUM_HW_COM];
 
 
@@ -315,10 +315,10 @@ void loadConfig() {
   COM[2].xCOM[2] = preferences.getBool("COM2xCOM2", false);
   COM[2].xCOM[3] = preferences.getBool("COM2xCOM_BT", false);
 
-  COM_BT.xCOM[0] = preferences.putBool("COM_BTxCOM0", false);
-  COM_BT.xCOM[1] = preferences.putBool("COM_BTxCOM1", false);
-  COM_BT.xCOM[2] = preferences.putBool("COM_BTxCOM2", false);
-  COM_BT.xCOM[3] = preferences.putBool("COM_BTxCOM_BT", false);
+  COM_BT.xCOM[0] = preferences.getBool("COM_BTxCOM0", false);
+  COM_BT.xCOM[1] = preferences.getBool("COM_BTxCOM1", false);
+  COM_BT.xCOM[2] = preferences.getBool("COM_BTxCOM2", false);
+  COM_BT.xCOM[3] = preferences.getBool("COM_BTxCOM_BT", false);
 
   for (int i = 0; i < NUM_HW_COM-1; i++)
   {
@@ -1445,10 +1445,10 @@ bool bSend=false;
 Debug_COM = HW_SERIAL[0];
  /*  if (Debug_COM != NULL) Debug_COM->print(" suspent Task #");             
    if (Debug_COM != NULL) Debug_COM->println(num);*/
-   vTaskSuspend(COM[num].TaskHandle);      
-#endif   
-   delay(1);
-  }      
+   vTaskSuspend(COM[num].TaskHandle);
+#endif
+   yield();
+  }
 }    
 
 
