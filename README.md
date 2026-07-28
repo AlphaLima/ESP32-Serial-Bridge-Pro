@@ -22,9 +22,7 @@ https://github.com/espressif/arduino-esp32
 In some cases the memory layout is too small for this sketch. If you face this problem you can either disable Bluetooth by removing #define BLUETOOTH in config.h or change the partition size as described here: https://desire.giesecke.tk/index.php/2018/04/20/change-partition-size-arduino-ide/
 
 Arduino hardware configuration:
-
-https://github.com/AlphaLima/ESP32-Serial-Bridge/blob/master/Settings.jpg
-<img width="681" height="962" alt="image" src="https://github.com/user-attachments/assets/1449859a-c674-4118-8f05-fc214d705592" />
+https://github.com/AlphaLima/ESP32-Serial-Bridge-Pro/blob/main/Arduino%20Settings.png
 
 ===============================================================
 
