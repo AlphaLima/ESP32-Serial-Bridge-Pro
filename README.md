@@ -59,3 +59,11 @@ I recommend to start your project with a Node32s or compatible evaluation board.
 https://tech.scargill.net/wp-content/uploads/2017/05/ESP326.jpg
 
 
+**AccessPoint Configuration website:** 
+<img width="922" height="737" alt="image" src="https://github.com/user-attachments/assets/48c69e23-dd34-4f75-9f56-29a7476ffb5f" />  
+
+<img width="537" height="837" alt="image" src="https://github.com/user-attachments/assets/a258e4f3-4f29-4b68-8a1b-e6d382c42732" />  
+
+<img width="497" height="257" alt="image" src="https://github.com/user-attachments/assets/b2bc4d4a-fe3f-4708-ad97-7db062f51ea4" />  
+
+
