@@ -1,3 +1,5 @@
+Wifi to 3x Serial and one BT bridge based on a ESP32 with configuration website
+
 This is the advanced version of the ESP32-Serial-Bridge, now with a configuration website.
 It allows the entire configuration, NMEA Filter and cross serial data exchange. All configurable in the website.
 
