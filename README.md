@@ -1,6 +1,7 @@
 Wifi to 3x Serial and one BT bridge based on a ESP32 with configuration website
 
 This is the advanced version of the ESP32-Serial-Bridge, now with a configuration website.
+
 It allows the entire configuration, NMEA Filter and cross serial data exchange. All configurable in the website.
 
 
@@ -43,8 +44,10 @@ https://www.youtube.com/watch?v=K2Hia06IMtk
 
 https://www.youtube.com/watch?v=GoSxlQvuAhg
 
-Hardware
-here is the wiring diagram recommendation: https://raw.githubusercontent.com/AlphaLima/ESP32-Serial-Bridge/master/ESP32-SerialBridge.jpg
+Hardware:
+here is the wiring diagram recommendation: 
+
+https://raw.githubusercontent.com/AlphaLima/ESP32-Serial-Bridge/master/ESP32-SerialBridge.jpg
 
 Pinning:
 
@@ -62,6 +65,8 @@ COM2 Tx <-> GPIO04
 
 
 NOTE: The PIN assignment has changed and may not look straight forward (other PINs are marked as Rx/Tx), but this assignment allows to flash via USB also with hooked MAX3232 serial drivers.
+
+
 
 I recommend to start your project with a Node32s or compatible evaluation board. For a TTL to RS232 level conversion search google for "TTL RS3232 Converter"
 
